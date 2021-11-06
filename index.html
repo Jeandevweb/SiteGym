@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Gym</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!--NAVIGATION-->
+
+    <nav>
+        <ul>
+            <li><a href="#home" class="item-navigation">Accueil</a></li>
+            <li><a href="#equipement" class="item-navigation">Matériel</a></li>
+            <li><a href="#tarif" class="item-navigation">Tarifs</a></li>
+            <li><a href="#contact" class="item-navigation">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--ACCUEIL-->
+
+    <section class="accueil" id="home">
+        <div class="bloc-gauche-accueil">
+            <h1>GYM YONOS</h1>
+            <p>Dépassez vos limites</p>
+            <p>Entrainez-vous</p>
+            <p>Progressez</p>
+            <div class="cont-btn-home">
+                <a href="#equipement" class="btn-accueil b1">Équipement</a>
+                <a href="#contact" class="btn-accueil b2">Contact</a>
+            </div>
+        </div>
+
+        <div class="bloc-droit-accueil"></div>
+    </section>
+
+
+    <!--INFORMATIONS-->
+
+    <h2 class="titre-section-info">SE (RE)PRENDRE EN MAIN</h2>
+    <section class="section-info" id="infos">
+
+        <div class="carte-infos">
+            <div class="container-photo-info">
+                <img src="/ressources/img-info-1.jpg" alt="femme faisant du sport">
+            </div>
+            <h2>Faire parti d'un groupe</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam mollitia repudiandae nobis accusantium dicta rerum!</p>
+            <img src="./ressources/points.png" alt="decorations petit point noirs" class="deco-infos">
+        </div>
+
+        <div class="carte-infos">
+            <div class="container-photo-info">
+                <img src="/ressources/img-info-2.jpg" alt="homme avec une capuche qui montre ses abdos">
+            </div>
+            <h2>Atteindre ses objestifs</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam mollitia repudiandae nobis accusantium dicta rerum!</p>
+        </div>
+
+        <div class="carte-infos">
+            <div class="container-photo-info">
+                <img src="/ressources/img-info-3.jpg" alt="salle de sport avec une vue sur le coucher du soleil">
+            </div>
+            <h2>Exploser ses limites</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam mollitia repudiandae nobis accusantium dicta rerum!</p>
+        </div>
+
+    </section>
+
+    <!--SECTION CHOIX-->
+
+    <section id="choix">
+        <div class="entrainement-choix">
+            <h3>Salle de sport</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consectetur temporibus quas?</p>
+            <button class="btn-outline-choix" type="button">Voir les prix</button>
+        </div>
+
+        <div class="entrainement-choix">
+            <h3>Crossfit</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consectetur temporibus quas?</p>
+            <button class="btn-outline-choix" type="button">Voir les prix</button>
+        </div>
+    </section>
+
+    <!--SECTION EQUIPEMENT-->
+
+    <h2 class="titre-equipement">Les équipements</h2>
+    <section id="equipement">
+        <button type="button" data-index="1" class="btn-modale"></button>
+        <button type="button" data-index="2" class="btn-modale"></button>
+        <button type="button" data-index="3" class="btn-modale"></button>
+        <button type="button" data-index="4" class="btn-modale"></button>
+        <button type="button" data-index="5" class="btn-modale"></button>
+        <button type="button" data-index="6" class="btn-modale"></button>
+        <button type="button" data-index="7" class="btn-modale"></button>
+        <button type="button" data-index="8" class="btn-modale"></button>
+        <button type="button" data-index="9" class="btn-modale"></button>
+    </section>
+
+    <div class="bloc-modale">
+        <div class="bloc-img">
+            <img src="ressources/img8-equip.jpg" alt="">
+            <button class="fermeture-modale">X</button>
+        </div>
+    </div>
+
+    <!--SECTION PARALLAX-->
+
+    <section class="parallax">
+        <p class="parallax-txt">COURAGE</p>
+    </section>
+
+    <!--SECTION TARIFS-->
+
+    <h2 class="titre-tarif">TARIFS</h2>
+    <section id="tarif">
+        <div class="carte-tarif">
+            <h3>BASIC</h3>
+            <p class="prix-carte"><span>20</span>/mois</p>
+            <p class="info-carte">
+                <img src="/ressources/check.svg" alt="emoji check vert" class="img-info-carte">
+                Salle Libre
+            </p>
+            <p class="info-carte">
+                <img src="/ressources/check.svg" alt="emoji check vert" class="img-info-carte">
+                24/24
+            </p>
+            <p class="info-carte">
+                <img src="/ressources/cross.svg" alt="emoji croix rouge" class="img-info-carte">
+                Coach
+            </p>
+            <p class="info-carte">
+                <img src="/ressources/cross.svg" alt="emoji croix rouge" class="img-info-carte">
+                Crossfit
+            </p>
+            <p class="info-carte">
+                <img src="/ressources/cross.svg" alt="emoji croix rouge" class="img-info-carte">
+                Massage
+            </p>
+        </div>
+
+        <div class="carte-tarif">
+            <h3>COMPLET</h3>
+            <p class="prix-carte"><span>40</span>/mois</p>
+            <p class="info-carte">
+                <img src="/ressources/check.svg" alt="emoji check vert" class="img-info-carte">
+                Salle Libre
+            </p>
+            <p class="info-carte">
+                <img src="/ressources/check.svg" alt="emoji check vert" class="img-info-carte">
+                24/24
+            </p>
+            <p class="info-carte">
+                <img src="/ressources/check.svg" alt="emoji check vert" class="img-info-carte">
+                Coach
+            </p>
+            <p class="info-carte">
+                <img src="/ressources/check.svg" alt="emoji check vert" class="img-info-carte">
+                Crossfit
+            </p>
+            <p class="info-carte">
+                <img src="/ressources/cross.svg" alt="emoji croix rouge" class="img-info-carte">
+                Massage
+            </p>
+        </div>
+
+        <div class="carte-tarif">
+            <h3>PRO</h3>
+            <p class="prix-carte"><span>60</span>/mois</p>
+            <p class="info-carte">
+                <img src="/ressources/check.svg" alt="emoji check vert" class="img-info-carte">
+                Salle Libre
+            </p>
+            <p class="info-carte">
+                <img src="/ressources/check.svg" alt="emoji check vert" class="img-info-carte">
+                24/24
+            </p>
+            <p class="info-carte">
+                <img src="/ressources/check.svg" alt="emoji check vert" class="img-info-carte">
+                Coach
+            </p>
+            <p class="info-carte">
+                <img src="/ressources/check.svg" alt="emoji check vert" class="img-info-carte">
+                Crossfit
+            </p>
+            <p class="info-carte">
+                <img src="/ressources/check.svg" alt="emoji check vert" class="img-info-carte">
+                Massage
+            </p>
+        </div>
+    </section>
+
+        <!--SECTION CONTACT-->
+
+    <h2 class="titre-contact">Section Contact</h2>
+    <section id="contact">
+        <form action="">
+            <label for="prenom">PRÉNOM</label>
+            <input type="text" id="prenom">
+
+            <label for="nom">NOM</label>
+            <input type="text" id="nom">
+
+            <label for="text-area">MESSAGE</label>
+            <textarea id="text-area"></textarea>
+
+            <button class="form-btn" type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Tous droits réservés ©</p>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+</html>
